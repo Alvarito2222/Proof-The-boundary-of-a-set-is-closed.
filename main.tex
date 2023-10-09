@@ -1,0 +1,35 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb} 
+\usepackage{parskip} 
+
+\title{Proof : The intersection of two open sets is open}
+\author{aleonp000 }
+\date{January 2023}
+
+\begin{document}
+
+
+\noindent
+\textbf{Theorem}. \textit{10. The boundary of a set is closed. }
+
+\textit{Def: } A point $p$, is a boundary point of the set $D$ , if $\forall$ $nbhd$ $N$ of 
+$p$
+ , $N$ contains points of both $D$ and $D^{c}$. 
+
+
+\textit{Proof: }
+ Let $D$ be a point set. Suppose that $bd(D)$ is not closed.
+ This means that there is some limit point $l$ of $bd(D)$ $s.t.$ $l \notin$$bd(D)$. 
+ 
+Since $l$ is a limit point of $bd(D)$, $\forall$ $nhbd$ $N$ of $l$ , $\exists$ a point $q \in$ $bd(D)$ $\cap$$N$ $\setminus\{l\}$ . $N$ is also a $nhbd$ of $q \in bd(D)$. 
+
+We have shown $\forall$ $nbhd$ $N$ of p , $N$ has point in both $D$ and $D^{c}$ , so it follows by the definition of boundary that $l\in bd(D)$.
+
+This means $bd(D)$ contains all its limits points.
+
+ \noindent 
+ $\therefore$ The boundary of a set closed.            \spaceskip1cm   \hfill                     $\square$
+ 
+
+\end{document}
